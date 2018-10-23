@@ -3,7 +3,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.3.1'
 
+
+# user authentication
+gem 'devise'
+# form submission
 gem 'simple_form'
+# bootstrap gem and dependencies
 gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '4.0.0.alpha6'
 gem 'jquery-rails'
