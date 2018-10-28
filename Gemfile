@@ -3,7 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.3.1'
 
-
+# image uploader
+gem 'carrierwave', '~> 1.0'
 # user authentication
 gem 'devise'
 # form submission
