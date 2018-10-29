@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.3.1'
 
+# easily set up api keys
+gem 'figaro', '~> 1.1.1'
 # aws carrierwave
 gem 'carrierwave-aws'
 # image resizer
