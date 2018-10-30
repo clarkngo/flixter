@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.3.1'
 
 # payment processing
-gem 'stripe', '3.28.0'
+gem 'stripe', '~> 3.28.0'
 # easily set up api keys
 gem 'figaro', '~> 1.1.1'
 # aws carrierwave
