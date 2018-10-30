@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.3.1'
-
+# positioning and ranking items
+gem 'ranked-model', '~> 0.4.1'
 # payment processing
 gem 'stripe', '~> 3.28.0'
 # easily set up api keys
