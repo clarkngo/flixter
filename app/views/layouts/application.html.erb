@@ -25,7 +25,7 @@
             </li>
           </ul>
           <ul class="navbar-nav">
-            <% if user_signed_in? %>
+          <% if user_signed_in? %>
               <li class="nav-item">
                 <%= link_to 'My Dashboard', dashboard_path, class: 'nav-link' %>
               </li>            
@@ -55,9 +55,47 @@
     </div>
     <div id="footer">
       <div class="container">
-        <b>Teachers</b>
-        <br />
-        <%= link_to 'Teach a Course', new_instructor_course_path %>
+        <div class="row">
+          <div class="col-12 col-sm-3">
+            <b>Teachers</b>
+            <br />
+            <%= link_to 'Teach a Course', new_instructor_course_path %>
+            <br />
+            <%= link_to 'My Dashboard', dashboard_path %>
+          </div>
+          <div class="col-12 col-sm-3">
+            <b>About</b>
+            <br />
+            <%= link_to 'Team', '#' %>
+            <br />
+            <%= link_to 'Careers', '#' %>
+            <br />
+            <%= link_to 'Privacy Policy', '#' %>
+          </div>
+          <div class="col-12 col-sm-3">
+            <b>Contact</b>
+            <br />
+            clarkngo@gmail.com
+            <br />
+            243 165th Avenue SE
+            <br />
+            Bellevue WA, 98008
+          </div>
+          <div class="col-12 col-sm-3">
+            <b>Social</b>
+            <br />
+            <br />  
+            <%= link_to 'http://github.com/clarkngo' do %>
+              <span class="fa fa-github-square fa-2x social-button"></span>
+            <% end %>
+            <%= link_to 'http://facebook.com/clark.j.ngo' do %>
+              <span class="fa fa-facebook-square fa-2x social-button"></span>
+            <% end %>
+            <%= link_to 'https://twitter.com/djjasonclark' do %>
+              <span class="fa fa-twitter-square fa-2x social-button"></span>        </div>
+            <% end %>
+          </div> 
+        </div>     
       </div>    
     </div>
 
