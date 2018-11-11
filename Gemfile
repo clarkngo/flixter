@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+# UI for jQuery
+gem 'jquery-ui-rails'
 # positioning and ranking items
 gem 'ranked-model', '~> 0.4.1'
 # payment processing
