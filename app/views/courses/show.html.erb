@@ -2,9 +2,7 @@
 
 <div class="booyah-box col-10 offset-1">
   <h1><%= @course.title %></h1>
-  <% if @course.image.present? %>
-    <%= image_tag @course.image.to_s, class: 'img-fluid' %>
-  <% end %>
+  <%= image_tag @course.image.to_s, class: 'img-fluid' %>
   <br />
   <div class="row">
     <div class="col-sm-4 col-12">
@@ -42,7 +40,8 @@
         <h3 class="badge badge-info">Sign In to Enroll!</h3>
       <% end %>
     </div>
-
+    <br />
+    <br />
     <div class="col-sm-8 col-12">
       <%= @course.description %>
     </div>
