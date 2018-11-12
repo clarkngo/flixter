@@ -2,7 +2,7 @@
 
 An E-commerce Courses Platform!
 
-This app powers flixter located [http://flixter-clark-ngo.herokuapp.com] (Heroku Project URL)
+This app powers flixter located [here] (http://flixter-clark-ngo.herokuapp.com)
 
 ## Getting Started
 
