@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+gem "actionview", ">= 5.2.2.1"
+gem "railties", ">= 5.2.2.1"
 # font-awesome
 gem 'font-awesome-rails'
 # UI for jQuery
@@ -18,12 +20,12 @@ gem 'mini_magick'
 # image uploader
 gem 'carrierwave', '~> 1.0'
 # user authentication
-gem 'devise'
+gem "devise", ">= 4.6.0"
 # form submission
 gem 'simple_form'
 # bootstrap gem and dependencies
-gem 'popper_js', '~> 1.11.1'
-gem 'bootstrap', '4.0.0.alpha6'
+gem 'popper_js', '< 2', '>= 1.12.9'
+gem 'bootstrap', '~> 4.0'
 gem 'jquery-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
