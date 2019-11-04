@@ -6,6 +6,7 @@ This app powers flixter located [http://flixter-clark-ngo.herokuapp.com] (Heroku
 
 ## Schema
 ![Schema](schema.png "Schema")
+Made with [dbdiagram.io](https://dbdiagram.io/home)
 
 ## Getting Started
 
