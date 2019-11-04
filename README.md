@@ -4,6 +4,9 @@ An E-commerce Courses Platform!
 
 This app powers flixter located [http://flixter-clark-ngo.herokuapp.com] (Heroku Project URL)
 
+## Schema
+![Schema](schema.png "Schema")
+
 ## Getting Started
 
 ## Software requirements
